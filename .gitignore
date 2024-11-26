@@ -1,0 +1,3 @@
+*.npy
+*.JSON
+.DS_Store
