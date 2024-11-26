@@ -10,3 +10,7 @@ https://www.nature.com/articles/s41592-022-01443-0
 Deer:
 https://www.mdpi.com/2076-2615/14/18/2640
 https://www.mdpi.com/2504-446X/8/10/522
+
+Bears (bearid python):
+https://bearresearch.org/
+https://onlinelibrary.wiley.com/doi/10.1002/ece3.6840
