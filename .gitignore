@@ -8,3 +8,8 @@
 *.pt
 *.cache
 *.yaml
+*.onnx
+*.tflite
+*.pb
+*.index
+*.data-*
