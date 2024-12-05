@@ -19,16 +19,19 @@ https://onlinelibrary.wiley.com/doi/10.1002/ece3.6840
 AnimalPose10K
 https://github.com/AlexTheBad/AP-10K
 
-Android applications: 
+Android applications:
+- Test1 : Working example of drawings overlay to a previewview -> preparation to represent the outcome of the tensorflow model 
 - Test2 : hello world
-- Test3 : broken, activities not declare in the manifest
+- Test3 : Successfully normalized the input TensorImage colors from 255 to 1, and now the right hand is tagged with a red dot.
 - Test5 : working example with different activities, buttons, preview of the camera and image acquisition. Moreover, it works correctly with the AppCompat, see settings in the manifest, lib.version.toml and build.gradle.kts
 - Test6 : working clean example with camera preview
-- Test8 : not working attempt to use the overlay of the guess boxes of the tensorflow model
 - YOLOv8PoseApp : working example of image processing with a tflite tensorflow model;
   - The processing is slow, less than 10 Hz. Better to see if it's possible to quantize the model , wether reduce the picture size (less than 640x640)
   - The output seems meaningless, try to understand better the data structure and debug if the input is correct.
   - Try to quantize the model to int8
 - TensorflowModelDebug : working example processing a jpg image. The results are exactly the same provided by the script tflite_debug.py in the pretrained folder of this project. Now it's missing the last part : determine where I can obtain the data I want
 
-
+TODO : 
+- investigate over c++ native interface to speed up the elaborations
+- try to train a new model with small dataset
+- train model with virtual dataset

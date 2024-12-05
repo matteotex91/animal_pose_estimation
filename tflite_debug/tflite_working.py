@@ -50,7 +50,9 @@ output_details = interpreter.get_output_details()
 
 
 # Read the image
-image_path = "/Users/matteotex/Documents/VSC/matteotex/animal_pose_estimation/tflite_debug/images/image1.png"
+# image_path = "/Users/matteotex/Documents/VSC/matteotex/animal_pose_estimation/tflite_debug/images/human1.jpg"
+image_path = "/Users/matteotex/Documents/VSC/matteotex/animal_pose_estimation/tflite_debug/images/human2.jpg"
+# image_path = "/Users/matteotex/Documents/VSC/matteotex/animal_pose_estimation/tflite_debug/images/image1.png"
 image = cv2.imread(image_path)
 image2 = cv2.imread(image_path)
 
