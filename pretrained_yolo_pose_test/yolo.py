@@ -5,7 +5,7 @@ model = YOLO("yolov8l-pose.pt")
 model.info()
 
 results = model(
-    "/Users/matteotex/Documents/VSC/matteotex/animal_pose_estimation/pretrained/images/human1.jpg"
+    "/Users/matteotex/Documents/VSC/matteotex/animal_pose_estimation/tflite_debug/images/human1.jpg"
 )
 print("Tensors in results : ")
 print(f"Names : {len(results[0].names)}")

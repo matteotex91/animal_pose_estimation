@@ -13,3 +13,5 @@
 *.pb
 *.index
 *.data-*
+*.pickle
+*.png

@@ -31,7 +31,11 @@ Android applications:
   - Try to quantize the model to int8
 - TensorflowModelDebug : working example processing a jpg image. The results are exactly the same provided by the script tflite_debug.py in the pretrained folder of this project. Now it's missing the last part : determine where I can obtain the data I want
 
+YOLO pose model trained with deers
+- try to train a new model with small dataset -> 10 images , 1 epoch. Great effort from the macbook air but absolutely zero good results
+
 TODO : 
-- investigate over c++ native interface to speed up the elaborations
-- try to train a new model with small dataset
+- investigate over c++ native interface to speed up the elaborations (very complicated)
+- Generate a set of deer images with a model in blender : different orientations
+- Try dell computer for the model training : CUDA compatibility in linux?
 - train model with virtual dataset
