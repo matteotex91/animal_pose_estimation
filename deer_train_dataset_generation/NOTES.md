@@ -1,0 +1,1 @@
+In the realistic_deer folder there is a model that will be used to generate a train dataset for yolo pose
